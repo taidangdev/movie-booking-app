@@ -13,6 +13,49 @@ body {
   box-sizing: border-box;
 }
 
+/* CÁC CLASS TIỆN ÍCH RESPONSIVE */
+/* Dành cho Mobile (Dưới 768px) */
+@media (max-width: 768px) {
+  .md-hidden {
+    display: none !important;
+  }
+  .mobile-show {
+    display: flex !important;
+  }
+  .header-mobile {
+    padding: 10px 15px !important;
+  }
+  .form-container {
+    margin: 30px 15px !important;
+    padding: 25px !important;
+    width: auto !important;
+  }
+  .footer-flex {
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 30px;
+  }
+  .footer-partners {
+    justify-content: center !important;
+  }
+}
+
+/* Dành cho Tablet / PC (Trên 769px) */
+@media (min-width: 769px) {
+  .mobile-show {
+    display: none !important;
+  }
+  .header-mobile {
+    padding: 10px 50px !important;
+  }
+  .form-container {
+    width: 480px !important;
+  }
+  .footer-flex {
+    flex-direction: row !important;
+  }
+}
+
 /* Antd override to align font strictly with Roboto */
 .ant-typography, .ant-btn, .ant-menu, .ant-table {
   font-family: 'Roboto', sans-serif !important;
