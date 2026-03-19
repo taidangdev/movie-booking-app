@@ -75,9 +75,9 @@ const ClientLayout = () => {
             </span>
           </NavLink>
           <NavLink to="/" style={linkStyle}>Trang chủ Phim</NavLink>
-          <NavLink to="/lienhe" style={linkStyle}>Cụm Rạp</NavLink>
-          <NavLink to="/tintuc" style={linkStyle}>Tin tức Review</NavLink>
-          <NavLink to="/ungdung" style={linkStyle}>Ứng dụng App</NavLink>
+          <NavLink to="/contact" style={linkStyle}>Cụm Rạp</NavLink>
+          <NavLink to="/news" style={linkStyle}>Tin tức Review</NavLink>
+          <NavLink to="/" style={linkStyle}>Ứng dụng App</NavLink>
         </div>
         
         {/* Toggle Login/Logout dựa trên LocalStorage */}

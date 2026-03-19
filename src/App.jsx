@@ -20,6 +20,8 @@ const AddFilm = React.lazy(() => import('./pages/Admin/AddFilm'));
 const EditFilm = React.lazy(() => import('./pages/Admin/EditFilm'));
 const ShowTime = React.lazy(() => import('./pages/Admin/ShowTime'));
 const Users = React.lazy(() => import('./pages/Admin/Users'));
+import Contact from './layouts/contact/contact';
+import News from './layouts/news/news';
 
 function App() {
   return (
@@ -41,6 +43,12 @@ function App() {
             <Route path="ticketroom/:id" element={<Booking />} />
             <Route path="thongtincanhan" element={<Profile />} />
             <Route path="profile" element={<Profile />} />
+            <Route path="contact" element={<Contact />} />
+
+              {/* News*/}
+              <Route path="news" element={<News />} /> 
+
+            
           </Route>
 
           {/* Admin Routes */}
