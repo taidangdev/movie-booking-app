@@ -59,13 +59,10 @@ const ClientLayout = () => {
               CYBER <span style={{color: '#333'}}>MOVIE</span>
             </span>
           </NavLink>
-          
-          {/* --- NHÓM MENU ĐỨNG: ẨN TRÊN ĐIỆN THOẠI (.md-hidden) --- */}
-          <div className="md-hidden" style={{ display: 'flex', alignItems: 'center' }}>
-            <NavLink to="/" style={linkStyle}>Trang chủ Phim</NavLink>
-            <NavLink to="/lienhe" style={linkStyle}>Cụm Rạp</NavLink>
-            <NavLink to="/tintuc" style={linkStyle}>Tin tức</NavLink>
-          </div>
+          <NavLink to="/" style={linkStyle}>Trang chủ Phim</NavLink>
+          <NavLink to="/contact" style={linkStyle}>Cụm Rạp</NavLink>
+          <NavLink to="/news" style={linkStyle}>Tin tức Review</NavLink>
+          <NavLink to="/" style={linkStyle}>Ứng dụng App</NavLink>
         </div>
         
         {/* --- NHÓM NÚT TÀI KHOẢN: ẨN TRÊN ĐIỆN THOẠI (.md-hidden) --- */}
